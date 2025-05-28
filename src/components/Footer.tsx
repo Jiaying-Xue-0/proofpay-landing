@@ -1,9 +1,9 @@
 'use client'
 
-const links = [
-  { name: 'Twitter', href: 'https://twitter.com/proofpay' },
-  { name: 'Telegram', href: 'https://t.me/proofpay' },
-  { name: 'Email', href: 'mailto:contact@proofpay.xyz' },
+const socialLinks = [
+  { name: 'Twitter', href: 'https://x.com/jiayingxue0' },
+  { name: 'Telegram', href: 'https://t.me/proofpayofficial' },
+  { name: 'Email', href: 'mailto:jiayingxue0@gmail.com' },
 ]
 
 const legal = [
@@ -19,7 +19,7 @@ export default function Footer() {
           <p className="text-gray-400">ProofPay © {new Date().getFullYear()}</p>
           
           <div className="flex gap-8">
-            {links.map((link) => (
+            {socialLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
