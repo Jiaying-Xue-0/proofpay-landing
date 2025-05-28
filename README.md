@@ -1,70 +1,43 @@
 # ProofPay Landing Page
 
-A modern, Web3-styled landing page for ProofPay - a blockchain invoice generation platform.
+A modern landing page for ProofPay - a Web3 invoice generation platform.
+
+## Live Demo
+
+Visit the live site: [ProofPay Landing Page](https://proofpay-landing.vercel.app/)
 
 ## Features
 
-- 🎨 Modern Web3 Design
-  - Dark theme with neon accents
-  - Glassmorphism effects
-  - Responsive layout
-  - Smooth animations
-- 🛠 Tech Stack
-  - Next.js 14
-  - Tailwind CSS
-  - TypeScript
-  - Framer Motion
+- Modern Web3-styled design with dark theme
+- Responsive layout for all devices
+- Glassmorphism and gradient effects
+- Interactive mobile navigation
+- Built with Next.js and Tailwind CSS
 
-## Getting Started
+## Tech Stack
 
-1. Clone the repository:
+- Next.js 14
+- Tailwind CSS
+- TypeScript
+- React
+
+## Development
+
+To run this project locally:
+
 ```bash
-git clone https://github.com/Jiaying-Xue-0/proofpay-landing.git
-```
-
-2. Install dependencies:
-```bash
-cd proofpay-landing
+# Install dependencies
 npm install
-```
 
-3. Run the development server:
-```bash
+# Run development server
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+The development server will start at `http://localhost:3000`
 
-## Project Structure
+## Deployment
 
-```
-proofpay-landing/
-├── src/
-│   ├── app/
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   └── globals.css
-│   └── components/
-│       ├── Navbar.tsx
-│       ├── Hero.tsx
-│       ├── Features.tsx
-│       ├── Demo.tsx
-│       ├── CTA.tsx
-│       └── Footer.tsx
-├── public/
-│   └── grid.svg
-├── tailwind.config.js
-├── postcss.config.js
-└── package.json
-```
-
-## Design Features
-
-- Custom color scheme with neon green accents
-- Glassmorphism effects for cards and navigation
-- Responsive design for all screen sizes
-- Custom animations and transitions
-- Modern Web3 aesthetic
+This project is deployed on Vercel. Any changes pushed to the main branch will automatically trigger a new deployment.
 
 ## License
 
