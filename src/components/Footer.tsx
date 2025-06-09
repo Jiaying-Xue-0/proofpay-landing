@@ -1,7 +1,7 @@
 'use client'
 
 const socialLinks = [
-  { name: 'Twitter', href: 'https://x.com/jiayingxue0' },
+  { name: 'Twitter', href: 'https://x.com/proof_pay' },
   { name: 'Telegram', href: 'https://t.me/proofpayofficial' },
   { name: 'Email', href: 'mailto:jiayingxue0@gmail.com' },
 ]

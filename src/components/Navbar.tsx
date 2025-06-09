@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link href="https://proof-pay.vercel.app" className="nav-link">
             Start for Free
           </Link>
-          <Link href="https://x.com/jiayingxue0" className="nav-link">
+          <Link href="https://x.com/proof_pay" className="nav-link">
             Twitter
           </Link>
           <Link href="#" className="nav-link">
@@ -75,7 +75,7 @@ export default function Navbar() {
               Start for Free
             </Link>
             <Link 
-              href="https://x.com/jiayingxue0" 
+              href="https://x.com/proof_pay" 
               className="nav-link block px-4 py-2 hover:bg-white/5"
               onClick={() => setIsMenuOpen(false)}
             >

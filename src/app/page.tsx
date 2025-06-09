@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-dark">
       <Navbar />
-      <main>
+      <main className="relative">
         <Hero />
         <Features />
         <Demo />
