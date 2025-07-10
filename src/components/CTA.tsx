@@ -18,7 +18,7 @@ export default function CTA() {
             Create your first Web3 invoice today.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-            <Link href="https://proof-pay.vercel.app" className="btn-primary">
+            <Link href="https://www.prfpay.com" className="btn-primary">
               Generate My First Invoice
             </Link>
             <a

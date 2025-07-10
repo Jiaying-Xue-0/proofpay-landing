@@ -4,7 +4,7 @@ A modern landing page for ProofPay - a Web3 invoice generation platform.
 
 ## Live Demo
 
-Visit the live site: [ProofPay Landing Page](https://proofpay-landing.vercel.app/)
+Visit the live site: [ProofPay Landing Page](https://www.prfpay.com)
 
 ## Features
 

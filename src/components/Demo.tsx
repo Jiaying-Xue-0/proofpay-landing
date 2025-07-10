@@ -17,7 +17,7 @@ export default function Demo() {
         </div>
         <div className="card relative aspect-video overflow-hidden">
           <iframe
-            src="https://proof-pay.vercel.app"
+            src="https://www.prfpay.com"
             className="absolute inset-0 w-full h-full"
             allow="wallet-connect"
           />

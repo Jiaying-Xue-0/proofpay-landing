@@ -1,8 +1,10 @@
 'use client'
 
+import Link from 'next/link'
+
 const socialLinks = [
   { name: 'Twitter', href: 'https://x.com/proof_pay' },
-  { name: 'Telegram', href: 'https://t.me/proofpayofficial' },
+  { name: 'LinkedIn', href: 'https://www.linkedin.com/company/prfpay/about' },
   { name: 'Email', href: 'mailto:jiayingxue0@gmail.com' },
 ]
 
@@ -20,7 +22,7 @@ export default function Footer() {
           
           <div className="flex gap-8">
             {socialLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 className="nav-link"
@@ -28,7 +30,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </div>
 

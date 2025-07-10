@@ -15,7 +15,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
-          <Link href="https://proof-pay.vercel.app" className="nav-link">
+          <Link href="https://www.prfpay.com" className="nav-link">
             Start for Free
           </Link>
           <Link href="https://x.com/proof_pay" className="nav-link">
@@ -25,10 +25,10 @@ export default function Navbar() {
             Docs
           </Link>
           <Link 
-            href="https://proof-pay.vercel.app" 
+            href="https://www.prfpay.com" 
             className="btn-primary"
           >
-            Launch App
+            Free Trial
           </Link>
         </div>
 
@@ -68,7 +68,7 @@ export default function Navbar() {
         <div className="md:hidden absolute top-20 left-0 right-0 bg-gradient-to-b from-black/80 to-black/60 backdrop-blur-md border-t border-white/5">
           <div className="container py-4 flex flex-col space-y-4">
             <Link 
-              href="https://proof-pay.vercel.app" 
+              href="https://www.prfpay.com" 
               className="nav-link block px-4 py-2 hover:bg-white/5"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -89,11 +89,11 @@ export default function Navbar() {
               Docs
             </Link>
             <Link 
-              href="https://proof-pay.vercel.app" 
+              href="https://www.prfpay.com" 
               className="btn-primary mx-4 mb-4"
               onClick={() => setIsMenuOpen(false)}
             >
-              Launch App
+              Free Trial
             </Link>
           </div>
         </div>

@@ -34,10 +34,10 @@ export default function Hero() {
             <Link href="https://x.com/proof_pay" className="nav-link">Twitter</Link>
             <Link href="#" className="nav-link">Docs</Link>
             <Link 
-              href="https://proof-pay.vercel.app/" 
+              href="https://www.prfpay.com" 
               className="btn-primary"
             >
-              Launch App
+              Free Trial
             </Link>
           </div>
         </div>
@@ -69,14 +69,13 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="max-w-4xl mx-auto space-y-8"
           >
-            <h1 className="text-6xl md:text-7xl font-bold tracking-tight text-text">
-              Generate Web3 Invoices{' '}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent animate-gradient">
-                Instantly
+            <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
+              <span className="bg-gradient-to-r from-primary via-accent to-primary-dark bg-clip-text text-transparent animate-gradient drop-shadow-lg">
+                Global Invoicing, Zero Borders
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
-              Create verifiable invoices for your freelance or DAO work.
+            <p className="text-lg md:text-2xl text-text-secondary max-w-3xl mx-auto mb-2 opacity-80 tracking-wide">
+              Enabling Stablecoin Payments for Employees and Suppliers Worldwide.
             </p>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -85,7 +84,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-6 justify-center pt-8"
             >
               <Link 
-                href="https://proof-pay.vercel.app/" 
+                href="https://www.prfpay.com" 
                 className="group relative inline-flex items-center justify-center"
               >
                 <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-primary to-accent opacity-70 blur group-hover:opacity-100 transition duration-300" />
