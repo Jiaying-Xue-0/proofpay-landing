@@ -15,7 +15,7 @@ export default function Demo() {
   }
 
   return (
-    <section className="section">
+    <section id="demo" className="section">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center space-y-8 mb-16">
           <h2 className="heading">

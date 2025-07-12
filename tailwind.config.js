@@ -19,6 +19,8 @@ module.exports = {
           DEFAULT: '#3B82F6',
           light: '#60A5FA',
           dark: '#2563EB',
+          from: '#3B82F6',
+          to: '#7DD3FC',
         },
         accent: {
           DEFAULT: '#7DD3FC',
@@ -43,6 +45,8 @@ module.exports = {
         'fade-in': 'fadeIn 0.5s ease-out forwards',
         'gradient': 'gradient 8s ease infinite',
         'pulse': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'bounce': 'bounce 2s infinite',
       },
       keyframes: {
         fadeUp: {
@@ -63,12 +67,31 @@ module.exports = {
             'background-position': 'right center',
           },
         },
+        float: {
+          '0%, 100%': {
+            transform: 'translateY(0px)',
+          },
+          '50%': {
+            transform: 'translateY(-10px)',
+          },
+        },
+        bounce: {
+          '0%, 100%': {
+            transform: 'translateY(0)',
+            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+          },
+          '50%': {
+            transform: 'translateY(-25%)',
+            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+          },
+        },
       },
       container: {
         center: true,
         padding: '1rem',
       },
       transitionDelay: {
+        '500': '500ms',
         '1000': '1000ms',
         '2000': '2000ms',
       },
