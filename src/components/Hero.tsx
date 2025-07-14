@@ -52,7 +52,7 @@ export default function Hero() {
             <Link href="https://x.com/proof_pay" className="text-text/80 hover:text-text transition-colors duration-200 font-medium">Twitter</Link>
             <Link href="#demo" className="text-text/80 hover:text-text transition-colors duration-200 font-medium">Demo</Link>
             <Link 
-              href="https://www.prfpay.com" 
+              href="https://app.prfpay.com" 
               className="relative group px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary/90 to-accent/90 text-white font-medium hover:from-primary hover:to-accent transition-all duration-200 hover:shadow-lg hover:shadow-primary/20"
             >
               <span className="relative z-10">Get Started</span>
@@ -185,7 +185,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4 justify-center pt-4"
             >
               <Link 
-                href="https://www.prfpay.com" 
+                href="https://app.prfpay.com" 
                 className="group relative inline-flex items-center justify-center"
               >
                 <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-primary to-accent opacity-70 blur group-hover:opacity-100 transition duration-300" />
